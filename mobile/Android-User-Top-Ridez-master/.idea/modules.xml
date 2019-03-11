@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OCRiders.iml" filepath="$PROJECT_DIR$/OCRiders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drop-in/drop-in.iml" filepath="$PROJECT_DIR$/drop-in/drop-in.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebooklibrary/facebooklibrary.iml" filepath="$PROJECT_DIR$/facebooklibrary/facebooklibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleratingbar/simpleratingbar.iml" filepath="$PROJECT_DIR$/simpleratingbar/simpleratingbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slideMenuLibrary/slideMenuLibrary.iml" filepath="$PROJECT_DIR$/slideMenuLibrary/slideMenuLibrary.iml" />
+    </modules>
+  </component>
+</project>

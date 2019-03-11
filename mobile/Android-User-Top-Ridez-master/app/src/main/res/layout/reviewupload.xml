@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/iv_user_photo"
+        android:layout_width="@dimen/height_90"
+        android:layout_height="@dimen/height_90"
+        android:layout_gravity="center"
+        android:src="@drawable/mail_defoult"
+        android:layout_marginTop="@dimen/margin_10"
+        />
+    <come.texi.user.utils.SimpleRatingBar
+        android:id="@+id/review_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srb_starSize="@dimen/height_30"
+        app:srb_numberOfStars="5"
+        app:srb_stepSize="0.5"
+        app:srb_borderColor="@color/black"
+        app:srb_starBorderWidth="2"
+        app:srb_fillColor="@color/yellow"
+        android:layout_gravity="center"
+        app:srb_isIndicator="false"
+        android:layout_marginTop="@dimen/margin_10"
+         />
+
+    <EditText
+        android:id="@+id/edt_reviews"
+        android:inputType="textMultiLine"
+        android:lines="7"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:layout_height="@dimen/height_90"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:background="@drawable/review_textbox_border"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/margin_3"
+        android:textSize="@dimen/font_15"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

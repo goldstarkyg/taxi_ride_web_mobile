@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+apply plugin: 'android-apt'
+
+ext {
+  bintrayRepo = 'maven'
+  bintrayName = 'simpleratingbar'
+
+  publishedGroupId = 'com.iarcuschin'
+  libraryName = 'simpleratingbar'
+  artifact = 'simpleratingbar'
+
+  libraryDescription = 'A simple RatingBar for Android'
+
+  siteUrl = 'https://github.com/FlyingPumba/SimpleRatingBar'
+  gitUrl = 'https://github.com/FlyingPumba/SimpleRatingBar.git'
+
+  libraryVersion = '0.1.5'
+
+  developerId = 'flyingpumba'
+  developerName = 'Ivan Arcuschin'
+  developerEmail = 'iarcuschin@gmail.com'
+
+  licenseName = 'The Apache Software License, Version 2.0'
+  licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+  allLicenses = ["Apache-2.0"]
+}
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+android {
+  compileSdkVersion 24
+  buildToolsVersion "23.0.3"
+
+  defaultConfig {
+    minSdkVersion 11
+    targetSdkVersion 24
+    versionCode 16
+    versionName "0.1.5"
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.android.support:support-v4:24.2.0'
+  apt 'org.androidannotations:androidannotations:3.2'
+  compile 'org.androidannotations:androidannotations-api:3.2'
+}
+
+apply from: 'installv1.gradle'
+apply from: 'bintrayv1.gradle'

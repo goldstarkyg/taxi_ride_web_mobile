@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/4cc1b23c47095457b453a5f119909321d13453b7/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/bt_payment_method_list_item_bg.xml",
+        "source": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/src/main/res/drawable-v21/bt_payment_method_list_item_bg.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/4cc1b23c47095457b453a5f119909321d13453b7/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/4cc1b23c47095457b453a5f119909321d13453b7/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/4cc1b23c47095457b453a5f119909321d13453b7/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

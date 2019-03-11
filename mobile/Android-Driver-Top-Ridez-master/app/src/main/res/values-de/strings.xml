@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">Top Ridez</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="are_you_sure">Are you sure you want to exit?</string>
+    <string name="really_exit">Really Exit?</string>
+    <string name="logout_hint">Currently you cannot logout of this app as you have one pending job . Please complete the same to proceed further.</string>
+    <string name="forgot_password_logo">MOT DE PASSE OUBLIÉ</string>
+    <string name="payment_status">STATUS</string>
+
+    <!--font path-->
+    <string name="font_regular_roboto">fonts/roboto_regular.ttf</string>
+    <string name="font_bold_roboto">fonts/roboto_bold.ttf</string>
+    <string name="font_semibold_opensans">fonts/openSans_semibold.ttf</string>
+    <string name="font_medium_roboto">fonts/roboto_medium.ttf</string>
+
+    <string name="font_regular_opensans">fonts/opensans-regular.ttf</string>
+    <string name="font_bold_opensans">fonts/opensans-bold.ttf</string>
+    <string name="apply">APPLY</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_register">Aktivität</string>
+    <string name="caption_new_user">Sie haben noch keinen Account? Jetzt neu registrieren!</string>
+    <string name="caption_signin">Anmelden</string>
+    <string name="caption_signup">Registrierung</string>
+    <string name="caption_update_profile">Account erneuern</string>
+    <string name="caption_create_your_account">Neuen Account anlegen</string>
+    <string name="caption_oops_forgot_password">Ups, ich habe mein Passwort vergessen!</string>
+    <string name="caption_forgot_password">Passwort vergessen</string>
+    <string name="caption_retrive_your_password">Passwort zurücksetzen</string>
+    <string name="caption_edit_prf">Accountredaktion</string>
+    <string name="caption_edit_your_account">Accountredaktion</string>
+
+    <!--Register Screen-->
+    <string name="caption_personal_details">Persönliche Daten</string>
+    <string name="caption_vehicle_details">Details für das Mfz</string>
+    <string name="caption_legal_details">Legale Details</string>
+
+    <!--Personal Details-->
+    <string name="hint_name">Name</string>
+    <string name="hint_username">Benutzername</string>
+    <string name="hint_mobile">Telefon</string>
+    <string name="hint_email">E-Mail-Adresse</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_confirm_password">Passwort wiederholen</string>
+    <string name="hint_date_of_birth">Geburtsdatum</string>
+    <string name="hint_gender">Geschlecht</string>
+    <string name="hint_address">Adresse</string>
+    <string name="hint_contact_number">Nummer</string>
+
+    <!--Vehicle Details-->
+    <string name="hint_carmake">Marke</string>
+    <string name="hint_carmodel">Modell</string>
+    <string name="hint_cartype">Kategorie</string>
+    <string name="hint_carnumber">Registrierungsnummer</string>
+    <string name="hint_seatingcapacity">Kapazität</string>
+
+    <!--Legal Details-->
+    <string name="hint_driving_license">Führerschein</string>
+    <string name="hint_license_exp_date">Haltbarkeitsdatum der Lizenz</string>
+    <string name="hint_license_plate">Registrierungsnummer</string>
+    <string name="hint_insuarance">Versicherung</string>
+
+
+    <!--All Trip-->
+    <string name="all_trip">Alle Reisen</string>
+    <string name="Change_password_screen">Passwort ändern</string>
+    <string name="truck_type_trip">Art vom Mfz</string>
+    <string name="booking_id">ID der Buchung</string>
+    <string name="pending">Wartende Buchung</string>
+    <string name="accepted">Angenommene Buchung</string>
+    <string name="user_cancell">Storno der Buchung</string>
+    <string name="user_cancelled">Stornierte Buchung</string>
+    <string name="driver_unavailable">Kein Fahrer</string>
+    <string name="completed">Beendete Buchung</string>
+    <string name="driver_cancelled">Vom Fehrer verweigert</string>
+    <string name="call">Anruf</string>
+    <string name="on_trip">Unterwegs</string>
+    <string name="driver_arrived">Angekommen</string>
+
+    <string name="i_hve_arrv">Ich bin angekommen</string>
+    <string name="begin_trip">Reise beginnen</string>
+    <string name="start_journey">Reise beginnen</string>
+    <string name="journey_complet">Beendet</string>
+    <string name="finished">Vollendet</string>
+
+    <string name="drop_location">Ankuft</string>
+    <string name="pickup_location">Abfahrt</string>
+    <string name="fin_distance">Entfernung</string>
+
+    <!--Change Password String-->
+    <string name="crrent_password">Gegenwärtiges Passwort</string>
+    <string name="old_password">Altes Passwort</string>
+    <string name="new_password">Neues Passwort</string>
+
+    <!--Dialog Text-->
+    <string name="dialog_choose">Wahl</string>
+
+
+    <!--Register Message-->
+    <string name="please_select_image">Bitte laden Sie ein Profilbild hoch </string>
+    <string name="enter_name">Bitte geben Sie einen gültigen Namen an.</string>
+    <string name="minimum_name_charactor">Der Name ist zu kurz (mindestens 4 Zeichen).</string>
+    <string name="maximum_name_charactor">Der Name ist zu lang (max. 30 Zeichen).</string>
+    <string name="please_enter_username">Bitte geben Sie einen gültigen Benutzernamen an.</string>
+    <string name="minimum_user_charactor">Der Benutzername ist zu kurz (mindestens 4 Zeichen).</string>
+    <string name="maximum_user_charactor">Der Benutzername ist zu lang (max. 30 Zeichen).</string>
+    <string name="username_error">Der Benutzername muss nur Zeichen und Zuffern enthalten(A-Za-z0-9).</string>
+    <string name="hint_password_msg">Bitte geben Sie Buchstaben und Ziffern</string>
+    <string name="please_enter_password">Bitte geben Sie Ihr Passwort an</string>
+    <string name="please_enter_confirm_password">Bitte wiederholen Sie Ihr Passwort an</string>
+    <string name="password_length">Passwort muss 6-32 Zeichen lang sein</string>
+    <string name="large_password">Passwort muss maximal 32 Zeichen sein</string>
+    <string name="password_does_not_match">Die Passwörter stimmen nicht überein</string>
+    <string name="enter_dob">Bitte geben Sie Ihr Geburtsdatum an</string>
+    <string name="dob_error">Sie müssen minmum 18 Jahre alt sein, um diese Anlage zu benutzen.</string>
+    <string name="select_gender">Bitte wählen Sie Ihr Geschlecht aus</string>
+    <string name="please_enter_email">Bitte geben Sie eine gültige E-Mail-Adresse an</string>
+    <string name="please_enter_valid_email">Bitte geben Sie eine gültige E-Mail-Adresse an</string>
+    <string name="please_enter_mobileno">Bitte geben Sie eine gültige Telefonnummer an</string>
+    <string name="min_mobile_number">Die Mobiltelefonnummer muss minimum 10 Ziffern lang sein.</string>
+    <string name="please_enter_address">Bitte geben Sie Ihre Adresse an</string>
+    <string name="please_enter_address_number">Die Adresse muss aus Zeichen und Ziffern bestehen(A-Za-z0-9).</string>
+    <string name="please_enter_amount">Bitte geben Sie den Betrag an.</string>
+
+
+    <string name="enter_carmake">Bitte geben Sie die Marke des Mfzs.</string>
+    <string name="please_enter_carmake_number">Die Marke muss aus Zeichen und Ziffern bestehen(A-Za-z0-9).</string>
+    <string name="enter_carmodel">Bitte geben Sie das Modell des Mfzs.</string>
+
+    <string name="enter_cartype">Bitte wählen Sie die Art des Mfzs.</string>
+    <string name="enter_carnumber">Bitte geben Sie die Registrierungsnummer des Mfzs.</string>
+    <string name="carnumber_error">Die Registrierungsnummer muss aus Buchstaben und Ziffern bestehen(A-Za-z0-9).</string>
+    <string name="enter_seating_capacity">Bitte geben Sie die Sitzplatzkapazität an.</string>
+    <string name="seating_capacity_error">Die Sitzplatzkapazität muss nur aus Ziffern bestehen (0-9).</string>
+    <string name="seating_capacity_length">Die Sitzplatzkapazität muss maximal 200 t sein.</string>
+
+
+    <string name="enter_driving_license">Bitte geben Sie einen Führerschein an</string>
+    <string name="driving_license_length">Die Nummer des Führerscheins muss nicht mehr als 16 Zeichen lang sein.</string>
+    <string name="enter_license_expiry_date">Bitte geben Sie das Haltbarkeitsdatum der Lizenz an</string>
+    <string name="enter_license_plate">Bitte geben Sie die Registrierungsnummer an</string>
+    <string name="license_plate_error">Die Registrierungsnummer muss aus Zeichen und Buchstaben bestehen. (A-Za-z0-9).</string>
+    <string name="enter_insuarance">Bitte geben Sie eine Versicherung an</string>
+    <string name="insuarance_error">Die Versicherung muss aus Zeichen und Ziffern bestehen (A-Za-z0-9).</string>
+    <string name="please_enter_current_password">Bitte geben Sie Ihr laufendes Passwort an</string>
+    <string name="please_current_password">Das laufende Passwort ist ungültig</string>
+    <string name="please_enter_new_password">Bitte geben Sie ein neues Passwort an</string>
+    <string name="password_new_length">Das neue Passwort muss 8-32 Zeichen lang sein</string>
+    <string name="password_new_confirm">Das neue und das alte Passwort stimmen nicht überein</string>
+
+
+    <!--Menu Items-->
+    <string name="menu_all_requests">Alle</string>
+    <string name="menu_change_password">Passwort ändern</string>
+    <string name="dialog_caption_signout">Abmelden</string>
+    <string name="dialog_logout_msg">Möchten Sie sich abmelden?</string>
+
+    <string name="dialog_caption_logout">Abmelden</string>
+
+    <!--Trip Detail String-->
+    <string name="review">Übersicht</string>
+    <string name="trip_details">Reisedetails</string>
+    <string name="track_truck">Verfolgung</string>
+    <string name="pickup_point">Abfahrt</string>
+    <string name="booking_date">Datum</string>
+    <string name="drop_point">Ankunft</string>
+    <string name="truck_type">Art des Mfzs</string>
+    <string name="distance">Entfernung</string>
+    <string name="apr_trv_time">Zeit</string>
+    <string name="payment_type">Art der Bezahlung</string>
+    <string name="total_price">Gesamtsumme</string>
+
+    <!--Alert Dialog String-->
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="are_you_sure_delete_trip">Möchten Sie diese Fahrt wirklich stornieren?</string>
+    <string name="delete_trip">Stornieren</string>
+    <string name="exit_app">Möchten Sie diese Fahrt wirklich stornieren?</string>
+    <string name="arrived_message">Möchten Sie Ihre Fahrt beginnen?</string>
+    <string name="begin_message">Sind Sie sicher? \n Möchten Sie Ihre Fahrt beginnen?</string>
+
+    <string name="all_trips">Alle Fahrten</string>
+    <string name="time_remaining">Verbleibende Zeit</string>
+    <string name="please_wait">Bitte warten Sie einen Augenblick...</string>
+    <string name="retry">Wiederholen</string>
+    <string name="sucess">Erfolg</string>
+    <string name="next">Nächst</string>
+    <string name="read_and_write">Es werden Rechte für Lesen und Aufnahme dieser Anlage verlangt.</string>
+    <string name="on_duty">Im Dienst</string>
+    <string name="off_duty">Außer Dienst</string>
+    <string name="update_profile">Die Daten wurden erfolgreich aktualisiert</string>
+    <string name="show">Anzeigen</string>
+    <string name="hide">Verstecken</string>
+    <string name="gps_disable">GPS wurde deaktiviert. Möchten Sie ihn wieder aktivieren?</string>
+    <string name="no_record_found">Aufnahme fehlt</string>
+    <string name="cash">Bar</string>
+    <string name="card">Karte</string>
+    <string name="pos">Pos</string>
+    <string name="km">km</string>
+    <string name="approx_price">Ungefähr Preis</string>
+    <string name="final_price">Endpreis</string>
+    <string name="enter_bill_amount">Geben Sie den Wert der Rechnung an</string>
+    <string name="reason_for_ride">Grund für die Fahrt</string>
+
+    <string name="a">W</string>
+    <string name="d">Sch</string>
+    <string name="c">S</string>
+    <string name="p">Tsch</string>
+    <string name="all">Alle</string>
+    <string name="pending_booking">Ausstehend</string>
+    <string name="accepted_booking">Angenommen</string>
+    <string name="driver_reject">Vom Fahrer verweigert</string>
+    <string name="completed_booking">Beendet</string>
+    <string name="gallery">Galerie</string>
+    <string name="camera">Kamera</string>
+    <string name="sign_out">Abmelden</string>
+    <string name="back">Zurück</string>
+    <string name="detail">Details</string>
+    <string name="chang_password">Passwort ändern</string>
+    <string name="forgot_password">Passwort vergessen</string>
+    <string name="payment_detail">Details für die Bezahlung</string>
+    <string name="vehicle_detail">Details des Mfzs</string>
+    <string name="to">Bis</string>
+    <string name="accept">Annehmen</string>
+    <string name="decline">Ablehnen</string>
+    <string name="secound">Zweite</string>
+    <string name="cancel_filter">Abbrechen</string>
+
+    <string name="enter_correct_login_detail">Bitte geben Sie die richtigen Daten für die Anmeldung an</string>
+    <string name="email_username_mobile_exit">Die E-Mail-Adresse, der Name und die Telefonnummer sind schon besetzt</string>
+    <string name="email_username_exit">Die E-Mail-Adresse und der Benutzername sind schon besetzt</string>
+    <string name="email_mobile_exit">Die E-Mail-Adresse und die Telefonnummer sind schon besetzt</string>
+    <string name="mobile_username_exit">Die Telefonnummer und der Benutzername sind schon besetzt</string>
+    <string name="email_exit">Die E-Mail-Adresse ist schon besetzt</string>
+    <string name="user_exit">Der Benutzername ist schon besetzt</string>
+    <string name="mobile_exit">Die Telefonnummer ist schon besetzt</string>
+    <string name="somthing_worng">Etwas ging schief.</string>
+    <string name="data_not_found">Nicht mehr Aufnahmen</string>
+    <string name="vehicle_numbet_exits">Die Registrierungsnummer ist schon besetzt</string>
+    <string name="license_numbet_exits">Die Lizenz ist schon besetzt</string>
+    <string name="dublicate_booking">Wir haben Ihre Buchung erhalten und es wurde festegestellt, dass es ein Duplikat der vorige Buchung sein könnte.Bitte versuchen Sie es noch einmal.</string>
+    <string name="invalid_birth_date">Ungültiges Geburtsdatum</string>
+    <string name="inactive_user">Ihr Account ist momentan geschlossen. Bitte verbinden Sie sich über mehr Details mit dem Verwalter.</string>
+    <string name="correct_login_detail">Bitte geben Sie die richtige E-Mail-Adresse an / den Benutzernamen und das Passwort.</string>
+    <string name="recheck_your_login_detail">Bitte überprüfen Sie Ihre Daten für die Abmeldung und versuchen es erneut. Sie haben noch keinen Account? Jetzt neu registrieren!</string>
+    <string name="password_change_sucess">Ihr Passwort wurde erfolgreich geändert.</string>
+
+    <string name="google_maps_key">AIzaSyBmCUmNBrxzZ_N-kSCEXDnZCowCcsoSrkw</string>
+
+    <string name="gps_turn_on">Bitte aktivieren Sie GPS, um Standorte zu erhalten.</string>
+    <string name="cancelbyuser">Der Job wird bereits vom Benutzer abgebrochen.</string>
+
+    <string name="user_profile">User Profile</string>
+    <string name="view_reviews">VIEW REVIEWS</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="submit">Submit</string>
+    <string name="dialog_review_title">Please help us to serve you better by sharing your experience with us.</string>
+
+    <string name="please_country_code">Bitte geben Sie das Landesvorwahl an.</string>
+    <string name="please_enter_mobile">Bitte geben Sie das Telefon an.</string>
+
+    <string name="header_invite">Einladen</string>
+    <string name="invite_member">Mitglied einladen</string>
+    <string name="btn_invite">Einladen</string>
+    <string name="country">Land</string>
+    <string name="mobile_number">Handynummer</string>
+    <string name="cancel">Stornieren</string>
+
+    <string name="you_have_been_invited">Sie wurden von unserem eingeladen </string>
+    <string name="to_join_okay_switzerland"> In die Okay Schweiz Gemeinschaft, wo Buchung Fahrten und Tracking-Fahrer sofort an Ihren Fingerspitzen. Laden Sie unsere kostenlose App für Ihr Lieblings-Betriebssystem herunter.</string>
+
+    <string name="invite_success">Ihre Einladung wurde erfolgreich verschickt.</string>
+
+    <string name="please_upload_vehicle_registration">Bitte Fahrzeugauswahl auswählen.</string>
+    <string name="please_select_driver_front_image">Bitte wählen Sie die Fahrerlaubnis.</string>
+    <string name="please_select_driver_back_image">Bitte wählen Sie die Fahrerlaubnis zurück.</string>
+
+    <string name="driver_inactive">Ihre Kontenangaben werden erfolgreich übermittelt. Wir überprüfen und überprüfen das gleiche in 24-48 Stunden und werden Sie benachrichtigen, wenn wir das gleiche aktivieren.</string>
+
+</resources>

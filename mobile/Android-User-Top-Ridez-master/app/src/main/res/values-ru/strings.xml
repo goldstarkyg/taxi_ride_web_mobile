@@ -1,0 +1,333 @@
+﻿<resources>
+    <string name="app_name">Top Ridez</string>
+    <string name="your_payable_amount">Your  Payable amount is :</string>
+
+    <!--Login String-->
+    <string name="user_name">Потребитель</string>
+    <string name="password">Пароль</string>
+    <string name="date_of_birth">День рождения</string>
+    <string name="gender">Секс</string>
+    <string name="forgot_password">Опс, я забыл свой пароль</string>
+
+    <!--Personal Details-->
+    <string name="hint_name">Имя</string>
+    <string name="hint_username">Имя пользователя</string>
+    <string name="hint_mobile">Телефон</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_confirm_password">Потверждение пароль</string>
+    <string name="hint_date_of_birth">День рождения</string>
+    <string name="hint_gender">Секс</string>
+    <string name="hint_address">Адрес</string>
+    <string name="hint_contact_number">Номер</string>
+
+    <!--Vehicle Details-->
+    <string name="hint_carmake">Марка</string>
+    <string name="hint_carmodel">Модель</string>
+    <string name="hint_cartype">Категория</string>
+    <string name="hint_carnumber">Рег. Номер</string>
+    <string name="hint_seatingcapacity">Емкость</string>
+
+    <!--Legal Details-->
+    <string name="hint_driving_license">Водительское удостоверение</string>
+    <string name="hint_license_exp_date">Лицензия дата окончания срока</string>
+    <string name="hint_license_plate">Номерной знак автомобиля</string>
+    <string name="hint_insuarance">Страхование</string>
+
+    <!--Login Option String-->
+    <string name="sign_in_with">Вход через</string>
+
+    <!--Signup String-->
+    <string name="name">Имя</string>
+    <string name="mobile">Телефон</string>
+    <string name="country_code">Код страны</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Подтверди пароль</string>
+
+    <!--Home String-->
+    <string name="home_string">Top Ridez</string>
+    <string name="enter_pickup_location">Выезд</string>
+    <string name="enter_drop_location">Прибытие</string>
+    <string name="write_comment">Коментар</string>
+    <string name="home_alert_message">Введите  место отправления</string>
+
+    <!--Forgot Password String-->
+    <string name="forgot_password_screen">Забытый пароль</string>
+    <string name="one_time_pass">Одноразовый пароль</string>
+
+    <!--Change Password String-->
+    <string name="Change_password_screen">Изменить пароль</string>
+    <string name="crrent_password">Текущая пароль</string>
+    <string name="old_password">Старый пароль</string>
+    <string name="new_password">Новый пароль</string>
+
+
+    <!--Trip Detail String-->
+    <string name="trip_details">Информация о дороге</string>
+    <string name="track_truck">Трассировка</string>
+    <string name="pickup_point">ВЫЕЗД</string>
+    <string name="booking_date">ДАТЫ</string>
+    <string name="drop_point">ПРИБЫТИЕ</string>
+    <string name="truck_type">КАТЕГОРИИ ТРАНСПОРТНЫХ СРЕДСТВ</string>
+    <string name="distance">РАССТОЯНИЕ</string>
+    <string name="apr_trv_time">ВРЕМЯ ПОЕЗДКА</string>
+    <string name="payment_type">ВИДУ ОПЛАЧИВАНИЕ</string>
+    <string name="total_price">ОБЩАЯ ЦЕНА</string>
+
+    <!--Booking Detail-->
+    <string name="booking_details">Детали бронирования</string>
+    <string name="cancel_ride">ОТКАЖИСЬ</string>
+    <string name="share_eta">ДЕЛИТЬСЯ</string>
+    <string name="receipt">ЧЕК</string>
+    <string name="on_trip">ЕХАТЬ</string>
+
+    <!--All Trip String-->
+    <string name="all_trip">Все поездки</string>
+    <string name="current_booking">ТЕКУЩИЙ ЗАКАЗ</string>
+    <string name="booking_id">ID БРОНИРОВАНИЕ</string>
+    <string name="truck_type_trip">ВИД МПС</string>
+    <string name="pending">ОЖИДАЮЩИЙ ЗАКАЗ</string>
+    <string name="accepted">ЗАКАЗ ПРИНЯТ</string>
+    <string name="user_cancelled">ОТМЕНА ЗАКАЗЫ</string>
+    <string name="driver_unavailable">НЕТ ВОДИТЕЛЬ</string>
+    <string name="driver_arrived">ВОДИТЕЛЬ ПРИБЫЛ</string>
+    <string name="completed">БРОНИРОВАНИЕ ОКОНЧЕНО</string>
+    <string name="driver_cancelled">ОТМЕНА ВОДИТЕЛЕМ</string>
+
+    <!--Rate Card String-->
+    <string name="rate_card">Цены</string>
+    <string name="rate_card_category">КАТЕГОРИЯ</string>
+    <string name="loading_capacity">Емкость</string>
+    <string name="standard_rate_day">СТАНДАРТНАЯ ЦЕНА - ДНЕВНАЯ</string>
+    <string name="standard_rate_night">СТАНДАРТНАЯ ЦЕНА - НОЧНАЯ</string>
+    <string name="extra_charges">ДОПОЛНИТЕЛЬНЫЕ СБОРКИ</string>
+    <string name="ride_time_charge_day">ДНЕВНАЯ СБОРКА</string>
+    <string name="per_km">на км</string>
+    <string name="wait_time_charge">Время ожидание оплачивается.</string>
+    <string name="ride_time_charge_night">НОЧНАЯ СБОРКА</string>
+    <string name="peak_time_charge">СБОРКА ЧАС ПИК</string>
+    <string name="peak_time_charges_des">Могут прилагатся  специальные  тарифы во время часы пик и они будут отражены в вашей брони. Это позваляет иметь больше свободных машин-такси для вас.</string>
+    <string name="services_tex">БРОНИРОВАНИЕ ПРИНЯТО</string>
+    <string name="services_tex_des">Такса обслуживания  добовляется к цене перевозки.</string>
+    <string name="toll_tax">В общею цену могут быть включены парковка и другие подобные.</string>
+
+    <!-- User Profile -->
+    <string name="title_activity_user_profile">Активности полз.</string>
+    <string name="user_profile">Профиль</string>
+    <string name="name_profile">Имя :</string>
+    <string name="user_name_profile">Имя пользователя :</string>
+    <string name="email_profile">Email :</string>
+    <string name="mobile_profile">Телефон :</string>
+    <string name="prf_date_of_birth">День рождения:</string>
+    <string name="prf_gender">Секс:</string>
+
+    <string name="track_the_truck">Трассировка</string>
+
+    <string name="facebook_popup_string">Ваш аккаунт еще не зарегистрирован. Хотите зарегистрироваться сейчас?</string>
+    <string name="register">Регистрация</string>
+    <string name="cancel">Отказ</string>
+    <string name="ok">ОК</string>
+
+    <!--Popup String-->
+    <string name="special_locaion_pickup">специальный заказ -цена инная.</string>
+    <string name="select_date">Выберите дата.</string>
+    <string name="select_time">Выберите время.</string>
+
+    <!--Validation string-->
+    <string name="please_enter_name">Пожалуйста, введите имя.</string>
+    <string name="please_min_name">Имя, должно быть четыре символа.</string>
+    <string name="please_min_isername">Имя пользвателя должно быть четыре символа.</string>
+    <string name="please_enter_username">Пожалуйста, введите имя пользователя.</string>
+    <string name="please_country_code">Пожалуйста, введите код страны.</string>
+    <string name="please_enter_mobile">Пожалуйста, введите телефон.</string>
+    <string name="please_enter_password">Пожалуйста, введите пароль.</string>
+    <string name="please_enter_confirm_password">Пожалуйста, подтвердите пароль.</string>
+    <string name="password_length">Длина пароля должна быть между 6-32 символов</string>
+    <string name="password_confirm">Пароли не совпадают.</string>
+    <string name="please_enter_email">Пожалуйста, введите Email.</string>
+    <string name="please_enter_valid_email">Моля, введите рабочий Email.</string>
+    <string name="location_long">Вы не сможете выбрать город за границей.</string>
+    <string name="location_short">Вы не сможете выбрать короткие дистанции.</string>
+    <string name="please_enter_date">Пожалуйста, введите дата.</string>
+    <string name="please_enter_time">Пожалуйста, введите время.</string>
+    <string name="please_enter_current_password">Пожалуйста, введите текущая пароль.</string>
+    <string name="please_current_password">Пожалуйста, неверный пароль.</string>
+    <string name="please_enter_new_password">Пожалуйста, введите новый пароль.</string>
+    <string name="password_new_length">Длина пароля должна быть между 6-32 символов.</string>
+    <string name="password_new_confirm">Новый пароль и подтвержденный пароль не съвпадают.</string>
+
+    <string name="please_enter_card_number">Пожалуйста, укажите номер карты.</string>
+    <string name="please_enter_year">Пожалуйста, укажите год.</string>
+    <string name="please_enter_month">Пожалуйста, укажите месяц.</string>
+    <string name="please_enter_cvc">Пожалуйста, введите cvc.</string>
+
+    <string name="allow_minimum_four_characters">Минимум четыре символа</string>
+    <string name="allow_minimum_ten_characters">Максимум десять символа</string>
+    <string name="emial_valid">Email allow abc@gmail.com</string>
+    <string name="password_valid">Пожалуйста, введите буквы и цифры</string>
+    <string name="one_time_pass_val">Пожалуйста, введите одноразовый пароль.</string>
+
+    <string-array name="currency_array">
+        <item>Валюта (незадължително)</item>
+        <item>Неопределённых</item>
+        <item>USD</item>
+    </string-array>
+
+    <string name="cardNumber">Номер карты</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+    <string name="save">Сохранить</string>
+    <string name="cvc">CVC</string>
+    <string name="stripe_form">Форма Stripe</string>
+
+    <string name="new_user_sign_up">НОВЫЙ ПОЛЬЗОВАТЕЛЬ? ЗАРЕГИСТРИРУЙТЕСЬ СЕЙЧАС!</string>
+    <string name="sign_in">ВХОД</string>
+    <string name="sign_in_logo">ВХОД</string>
+    <string name="sign_up_logo">РЕГИСТРАЦИЯ</string>
+    <string name="create_account">Создать профиль</string>
+    <string name="sign_up">РЕГИСТРАЦИЯ</string>
+    <string name="show">Отображать</string>
+    <string name="hide">Скрыть</string>
+    <string name="forgot_password_logo">ЗАБЫТЫЙ ПАРОЛЬ</string>
+    <string name="retrive_password">ПОЛУЧИТЬ ПАРОЛЬ</string>
+    <string name="location_logo">ЛОКАЦИИ</string>
+    <string name="reservation">БРОНИРОВАНИЕ</string>
+    <string name="now">СЕЙЧАСЬ</string>
+    <string name="far_breakup">ТАРИФЫ</string>
+    <string name="book">БРОНИРОВАНИЕ</string>
+    <string name="cancel_popup">ОТКАЗАТЬ</string>
+    <string name="to">К</string>
+    <string name="vehicle_detail">ДЕТАЛИ МПС</string>
+    <string name="payment_detail">ДЕТАЛИ ОПЛАТЫ</string>
+    <string name="confirm_request">ПОТВЕРДИ</string>
+    <string name="detail">ДЕТАЛИ</string>
+    <string name="location">ЛОКАЦИИ</string>
+    <string name="submit">Отправить</string>
+
+    <string name="book_my_trip">Бронирование</string>
+    <string name="my_trip">Мои поездки</string>
+    <string name="sign_out">Вы́ход</string>
+
+    <string name="pending_popup">Ждущих</string>
+    <string name="all">Все</string>
+    <string name="completed_popup">Законченных</string>
+    <string name="driv_unavailable">Нет водитель</string>
+    <string name="cnacel_booking">Запрещён</string>
+    <string name="driver_accepted">Принято</string>
+    <string name="a">В</string>
+    <string name="p">Ч</string>
+    <string name="c">З</string>
+    <string name="d">П</string>
+    <string name="cancel_request">ОТМЕНИТЬ ЗАПРОС</string>
+
+    <string name="contact">Контакт</string>
+    <string name="arrival_point">Прибытие</string>
+    <string name="remaining">Остаются </string>
+    <string name="coverd">Покрыты</string>
+    <string name="total">Суммарный </string>
+
+    <string name="cancel_booking_pop">Отменить резервация?</string>
+    <string name="please_tell">Пожалуйста, расскажите нам, почему вы хотите отменить</string>
+    <string name="drv_late">Водитель опоздал</string>
+    <string name="change_mind">Я изменил свое мнение</string>
+    <string name="another_cab">Я заказал другое такси</string>
+    <string name="driver_denied">Водитель отказался</string>
+    <string name="dont_cancel">Не отменять</string>
+    <string name="cancel_ride_pop">Откажись</string>
+    <string name="cancel_filter">ОТКАЖИСЬ</string>
+    <string name="apply">ПРИЛОЖИТЬ</string>
+    <string name="first">Начальное</string>
+    <string name="km">км</string>
+    <string name="after">Потом</string>
+    <string name="chnage_password">ИЗМЕНЕНИЯ ПАРОЛЬ</string>
+    <string name="cash">НАЛИЧНЫМИ</string>
+
+    <string name="enter_pickup">Пожалуйста, введите место отправления.</string>
+    <string name="enter_drop">Пожалуйста, введите место прибытия.</string>
+    <string name="your_booking_cancel">Ваш запрос отменен</string>
+    <string name="min">мин</string>
+    <string name="not_valid_total_price">Недействительная цена</string>
+    <string name="select_time_res">Выберите время</string>
+    <string name="time_is_large">Выбранная дата и время являются недействительными.</string>
+    <string name="date_time_not_valid">Выбранная дата и время являются недействительными.</string>
+    <string name="change_password">ИЗМЕНЕНИЕ ПАРОЛЯ</string>
+    <string name="profile_update_sucess">Ваши детали профиля были успешно обновлены.</string>
+    <string name="mobile_update_sucess">Ваш телефон успешно обновлен.</string>
+
+    <string name="enter_correct_login_detail">Пожалуйста, введите правильный логин</string>
+    <string name="email_username_mobile_exit">Email, имя и номер мобильного телефона уже существуют.</string>
+    <string name="email_username_exit">Email и имя пользователя уже существует.</string>
+    <string name="email_mobile_exit">Email и номер мобильного телефона уже существуют.</string>
+    <string name="mobile_username_exit">Номер мобильного телефона и имя пользователя уже существует.</string>
+    <string name="email_exit">Email занят.</string>
+    <string name="user_exit">Имя пользователя занято.</string>
+    <string name="mobile_exit">Номер мобильного телефон занят.</string>
+    <string name="somthing_worng">Что-то пойдет не так.</string>
+    <string name="data_not_found">Нет больше записы</string>
+    <string name="vehicle_numbet_exits">Номер данного транспортного средство уже занят.</string>
+    <string name="license_numbet_exits">Лицензий уже занят.</string>
+    <string name="dublicate_booking">Мы получили ваше бронирование и обнаружили, что это может быть дубликатом предыдущего. Пожалуйста, повторите попытку.</string>
+    <string name="invalid_birth_date">Неверная дата рождения.</string>
+    <string name="inactive_user">Ваша учетная запись временно закрыта.Обратитесь пожалуйста, к администратору для получения более подробной информации.</string>
+    <string name="correct_login_detail">Пожалуйста, введите правильный  имейл / имя пользователя и пароль.</string>
+    <string name="recheck_your_login_detail">Пожалуйста, проверьте еще раз ваш логин и повторите попытку. У вас нет аккаунта? Зарегистрируйтесь сейчас.</string>
+    <string name="password_change_sucess">Пароль был успешно изменен.</string>
+    <string name="recheck_your_login_detail_title">Проверить да́нные для  входа</string>
+    <string name="invalid_login">Недействительный вход</string>
+
+    <string name="paypall">PayPal</string>
+    <string name="braintree">Оплатить с помощью кредитной карты / дебетовой карты</string>
+    <string name="popup_cash">Наличными</string>
+    <string name="are_you_sure">Вы уверены, что хотите выйти?</string>
+    <string name="really_exit">Выход?</string>
+    <string name="one_time_password">ОДНОРАЗОВАЯ ПАРОЛЬ</string>
+
+    <!-- Change Mobile Number -->
+    <string name="Change_mobile_number">Изменение телефона</string>
+    <string name="Change_mobile_number_str">ИЗМЕНЕНИЕ ТЕЛЕФОНА</string>
+    <string name="Change_mobile_number_button">ИЗМЕНЕНИЕ ТЕЛЕФОНА</string>
+    <string name="mobile_number">Телефон</string>
+    <string name="country">Страна</string>
+
+    <string name="choose_option">Выберите Параметры</string>
+    <string name="open_camera">Камера</string>
+    <string name="gallery">Галерея</string>
+
+    <string name="facebook_share">Facebook</string>
+    <string name="twitter_share">Twitter</string>
+
+    <string name="male">Мужчина</string>
+    <string name="female">Женщина</string>
+    <string name="call">Звонок</string>
+
+    <string name="are_you_sure_logout">Вы уверены, что хотите выйти?</string>
+
+    <!--Api Key -->
+    <string name="facebook_app_id"></string>
+    <string name="google_maps_key">AIzaSyB8DiIqVyVoWzdDmNanh2b17s_y3LLKe68</string>
+    <string name="twilio_api_key">D8BqKPlepSn6gfmMgIx4JNqJmkjLlonb</string>
+    <string name="paypal_client_id"></string>
+
+
+    <string name="view_reviews">ПРОСМОТРЕТЬ ОБЗОРЫ</string>
+    <string name="my_reviews">Мои отзывы</string>
+    <string name="review">ОБЗОР</string>
+    <string name="dialog_review_title">Пожалуйста, помогите нам лучше служить вам, поделившись своим опытом с нами.</string>
+    <string name="add_a_card">Добавить карту</string>
+    <string name="menu_cards">Карты</string>
+
+    <string name="are_you_sure_want_to_delete">Вы уверены, что хотите удалить?</string>
+    <string name="you_have_selected">Вы выбрали концы карты с помощью </string>
+    <string name="as_your_default"> В качестве карты по умолчанию. Сумма бронирования будет вычтена с этой карты, когда поездка будет завершена.</string>
+    <string name="booking_amount_of">, Сумма бронирования</string>
+    <string name="will_be_deducted">Будет списана с этой карты, когда поездка будет завершена.</string>
+    <string name="are_you_sure_want_to_proceed">Вы уверены, что хотите продолжить?</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+
+    <string name="otp_error">Данные вашей учетной записи отправлены успешно. Мы проверим и проверим то же самое через 24-48 часов и уведомим вас, когда мы активируем то же самое.</string>
+
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5">
+
+        <ImageView
+            android:id="@+id/iv_driver_photo"
+            android:layout_width="@dimen/height_70"
+            android:layout_height="@dimen/height_70"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/mail_defoult"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_5"
+            />
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/iv_driver_photo"
+            android:id="@+id/layout_all_trip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+            <TextView
+                android:id="@+id/tv_driver_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_18"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+            />
+
+            <TextView
+                android:id="@+id/tv_driver_user_comments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_15"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_30">
+
+                <come.texi.user.utils.SimpleRatingBar
+                    android:id="@+id/properRatingbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srb_starSize="@dimen/height_20"
+                    app:srb_numberOfStars="5"
+                    app:srb_stepSize="0.5"
+                    app:srb_borderColor="@color/black"
+                    app:srb_starBorderWidth="2"
+                    app:srb_fillColor="@color/yellow"
+                    android:layout_gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    app:srb_isIndicator="true"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_driver_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_15"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:src="@color/seprator_color"
+    android:layout_marginLeft="@dimen/margin_10"
+    android:layout_marginRight="@dimen/margin_10"
+    android:layout_marginTop="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/margin_5"/>
+</LinearLayout>

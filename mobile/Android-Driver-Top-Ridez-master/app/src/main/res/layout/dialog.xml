@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/white_transparent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/round_corner">
+
+        <TextView
+            android:id="@+id/heading_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="40dp"
+            android:text="Alert"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            android:visibility="invisible"
+             />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading_text"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15sp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/exit_ok"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/view_exit"
+                android:layout_margin="@dimen/margin_5"
+                android:layout_weight=".5"
+                android:background="@drawable/selector_dialog_orange_button"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15sp"
+                 />
+
+            <TextView
+                android:id="@+id/exit_cancel"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/view_exit"
+                android:layout_margin="@dimen/margin_5"
+                android:layout_weight=".5"
+                android:background="@drawable/selector_dialog_orange_button"
+                android:gravity="center"
+                android:text="CANCEL"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15sp"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_80"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logooo" />
+
+</RelativeLayout>

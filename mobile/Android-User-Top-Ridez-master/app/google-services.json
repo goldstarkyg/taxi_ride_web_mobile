@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "750163864824",
+    "firebase_url": "https://ocriders-1486358004159.firebaseio.com",
+    "project_id": "ocriders-1486358004159",
+    "storage_bucket": "ocriders-1486358004159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750163864824:android:3f843b07cf1cdf28",
+        "android_client_info": {
+          "package_name": "com.ocriders.appd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750163864824-fuveev3b751e2g8p8mkslofi9bsjcdvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DiIqVyVoWzdDmNanh2b17s_y3LLKe68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750163864824:android:89d705ac879b0f23",
+        "android_client_info": {
+          "package_name": "com.ocriders.appu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750163864824-fuveev3b751e2g8p8mkslofi9bsjcdvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DiIqVyVoWzdDmNanh2b17s_y3LLKe68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

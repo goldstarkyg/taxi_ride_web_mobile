@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/4cc1b23c47095457b453a5f119909321d13453b7/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/mukeshjha/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Mukesh’s MacBook Air/Data/OCPC/ANDROID OC RIDER/OCRiders/drop-in/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/mukeshjha/.android/build-cache/dd77e895d27ac5740b4b8eec496537a99a5218a2/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

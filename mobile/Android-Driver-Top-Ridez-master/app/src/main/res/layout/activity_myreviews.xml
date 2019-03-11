@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapse_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <LinearLayout
+                android:id="@+id/vUserProfileRoot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                app:layout_collapseMode="none"
+                android:background="@color/reservation_color"
+                android:paddingTop="64dp"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:clipChildren="false"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_add_image"
+                        android:layout_width="@dimen/height_90"
+                        android:layout_height="@dimen/height_90"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:src="@drawable/avatar"
+                        android:layout_marginTop="@dimen/margin_10"
+                        />
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:id="@+id/vUserDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_driver_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/font_size_20sp"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            />
+
+
+
+                        <taxiel.co.il.driver.utils.SimpleRatingBar
+                            android:id="@+id/properRatingbar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srb_starSize="@dimen/height_30"
+                            app:srb_numberOfStars="5"
+                            app:srb_stepSize="0.5"
+                            app:srb_borderColor="@color/black"
+                            app:srb_starBorderWidth="2"
+                            app:srb_fillColor="@color/yellow"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            app:srb_isIndicator="true"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?colorPrimary"
+                app:elevation="@dimen/margin_8"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                >
+                <RelativeLayout
+                    android:id="@+id/layout_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50"
+                    android:background="@color/yellow"
+                    android:visibility="visible"
+                    app:layout_collapseMode="parallax"
+                    >
+
+
+                    <RelativeLayout
+                        android:id="@+id/layout_menu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/margin_15"
+                        android:visibility="gone"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/menu_icon"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_15"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_back_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/margin_15"
+                        android:visibility="gone"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/prev"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_15"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/txt_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_profile"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="@dimen/font_size_18sp"
+                        android:textColor="@color/black"/>
+                    <Switch
+                        android:id="@+id/switch_driver_status"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="@dimen/margin_15"
+                        android:textOn=""
+                        android:textOff=""
+                        android:text=""
+                        android:background="@drawable/driver_status_check"
+                        android:thumb="@android:color/transparent"
+                        android:track="@android:color/transparent"
+                        android:layout_alignParentRight="true"
+                        android:checked="false"
+                        android:layout_centerVertical="true"/>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/margin_15"
+                        android:layout_marginLeft="@dimen/margin_15"
+                        android:visibility="gone">
+
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <LinearLayout
+            android:id="@+id/vUserStats"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Reviews"
+                android:textSize="@dimen/font_size_20sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_no_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Reviews"
+            android:textSize="@dimen/font_size_20sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+<include layout="@layout/notify_alert"></include>
+
+</RelativeLayout>

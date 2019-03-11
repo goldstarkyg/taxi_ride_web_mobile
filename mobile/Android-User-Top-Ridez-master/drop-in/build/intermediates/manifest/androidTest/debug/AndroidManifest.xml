@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.braintreepayments.api.dropin.test" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.braintreepayments.api.dropin.test"
+        android:targetPackage="com.braintreepayments.api.dropin.test" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application android:supportsRtl="false" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+            android:theme="@style/bt_three_d_secure_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.DropInActivity"
+            android:theme="@style/bt_drop_in_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+            android:theme="@style/bt_add_card_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.AndroidPayActivity"
+            android:theme="@style/bt_transparent_activity" />
+
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

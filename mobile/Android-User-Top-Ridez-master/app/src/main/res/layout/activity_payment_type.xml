@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/margin_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:background="@drawable/filter_popup_border">
+
+        <RelativeLayout
+            android:id="@+id/rl_price_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/tv_price_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_18"
+                    android:textColor="@color/black"
+                    android:maxLines="2"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#30000000"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_cash_paypal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:onClick="onBuyPressed">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/img_paypal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/paypal_icon"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_18"
+                    android:text="@string/paypall"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_paypal"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#30000000"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_brain_tree"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/img_cash_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cash_cion"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_18"
+                    android:layout_centerVertical="true"
+                    android:text="@string/braintree"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_cash_icon"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#30000000"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_cash"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50" android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/img_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/credit_cards_icon"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_18"
+                    android:layout_centerVertical="true"
+                    android:text="@string/popup_cash"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_cash"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#30000000"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_cash_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_18"
+                android:layout_centerInParent="true"
+                android:text="CANCEL"
+                android:textColor="@color/yellow"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

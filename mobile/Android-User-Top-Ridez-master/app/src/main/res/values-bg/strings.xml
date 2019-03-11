@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">Top Ridez</string>
+
+    <string name="your_payable_amount">Вашият Платими сума е:</string>
+
+    <!--Login String-->
+    <string name="user_name">Потребител</string>
+    <string name="password">Парола</string>
+    <string name="date_of_birth">Дата на раждане</string>
+    <string name="gender">Пол</string>
+    <string name="forgot_password">Опа, забравих си паролата</string>
+
+    <!--Personal Details-->
+    <string name="hint_name">Име</string>
+    <string name="hint_username">Потребителско име</string>
+    <string name="hint_mobile">Телефон</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Парола</string>
+    <string name="hint_confirm_password">Потвърди паролата</string>
+    <string name="hint_date_of_birth">Дата на раждане</string>
+    <string name="hint_gender">Пол</string>
+    <string name="hint_address">Адрес</string>
+    <string name="hint_contact_number">Номер</string>
+
+    <!--Vehicle Details-->
+    <string name="hint_carmake">Марка</string>
+    <string name="hint_carmodel">Модел</string>
+    <string name="hint_cartype">Категория</string>
+    <string name="hint_carnumber">Рег. Номер</string>
+    <string name="hint_seatingcapacity">Капацитет</string>
+
+    <!--Legal Details-->
+    <string name="hint_driving_license">Шофьорска книжка</string>
+    <string name="hint_license_exp_date">Лиценз срок на годност</string>
+    <string name="hint_license_plate">Регистрационен номер</string>
+    <string name="hint_insuarance">Застраховка</string>
+
+    <!--Login Option String-->
+    <string name="sign_in_with">Вход чрез</string>
+
+    <!--Signup String-->
+    <string name="name">Име</string>
+    <string name="mobile">Телефон</string>
+    <string name="country_code">Код на държава</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Потвърди паролата</string>
+
+    <!--Home String-->
+    <string name="home_string">Top Ridez</string>
+    <string name="enter_pickup_location">Tръгване</string>
+    <string name="enter_drop_location">Пристигане</string>
+    <string name="write_comment">Коментар</string>
+    <string name="home_alert_message">Въведете място на тръгване</string>
+
+    <!--Forgot Password String-->
+    <string name="forgot_password_screen">Забравена парола</string>
+    <string name="one_time_pass">Еднократна парола</string>
+
+    <!--Change Password String-->
+    <string name="Change_password_screen">Промени парола</string>
+    <string name="crrent_password">Текуща парола</string>
+    <string name="old_password">Стара парола</string>
+    <string name="new_password">Нова парола</string>
+
+
+    <!--Trip Detail String-->
+    <string name="trip_details">Детайли за пътя</string>
+    <string name="track_truck">Проследяване</string>
+    <string name="pickup_point">ТРЪГВАНЕ</string>
+    <string name="booking_date">ДАТА</string>
+    <string name="drop_point">ПРИСТИГАНЕ</string>
+    <string name="truck_type">ВИД МПС</string>
+    <string name="distance">РАЗСТОЯНИЕ</string>
+    <string name="apr_trv_time">ВРЕМЕ НА ПЪТВУАНЕ</string>
+    <string name="payment_type">ВИД ПЛАЩАНЕ</string>
+    <string name="total_price">ОБЩА ЦЕНА</string>
+
+    <!--Booking Detail-->
+    <string name="booking_details">Детайли на резервацията</string>
+    <string name="cancel_ride">ОТКАЖИ</string>
+    <string name="share_eta">СПОДЕЛИ</string>
+    <string name="receipt">КАСОВА БЕЛЕЖКА</string>
+    <string name="on_trip">ПЪТУВА</string>
+
+    <!--All Trip String-->
+    <string name="all_trip">Всички пътувания</string>
+    <string name="current_booking">ТЕКУЩА РЕЗЕРВАЦИЯ</string>
+    <string name="booking_id">ID РЕЗЕРВАЦИЯ</string>
+    <string name="truck_type_trip">ВИД МПС</string>
+    <string name="pending">ЧАКАЩА РЕЗЕРВАЦИЯ</string>
+    <string name="accepted">ПРИЕТА РЕЗЕРВАЦИЯ</string>
+    <string name="user_cancelled">ОТКАЗАНА РЕЗЕРВАЦИЯ</string>
+    <string name="driver_unavailable">НЯМА ШОФЬОР</string>
+    <string name="driver_arrived">ШОФЬОРЪТ ПРИСТИГНА</string>
+    <string name="completed">ЗАВЪРШЕНА РЕЗЕРВАЦИЯ</string>
+    <string name="driver_cancelled">ОТМЕНЕНА ОТ ШОФЬОР</string>
+
+    <!--Rate Card String-->
+    <string name="rate_card">Цени</string>
+    <string name="rate_card_category">КАТЕГОРИЯ</string>
+    <string name="loading_capacity">Капацитет</string>
+    <string name="standard_rate_day">СТАНДАРТНА ЦЕНА - ДНЕВНА</string>
+    <string name="standard_rate_night">СТАНДАРТНАТА ЦЕНА - НОЩНА</string>
+    <string name="extra_charges">ДОПЪЛНИТЕЛНИ ТАКСИ</string>
+    <string name="ride_time_charge_day">ДНЕВНО ТАКСУВАНЕ</string>
+    <string name="per_km">на км</string>
+    <string name="wait_time_charge">Времето на изчакване се таксува.</string>
+    <string name="ride_time_charge_night">НОЩНО ТАКСУВАНЕ</string>
+    <string name="peak_time_charge">ТАКСУВАНЕ В ПИКОВИ ЧАСОВЕ</string>
+    <string name="peak_time_charges_des">Таксите в пикови часове могат да се прилагат по време на пиковите часове и ще бъдат отразени по време на резервацията. Това позволява да имаме повече свободни таксита за вас.</string>
+    <string name="services_tex">ПРИЕТА РЕЗЕРВАЦИЯ</string>
+    <string name="services_tex_des">Сервизната такса се добавя към общата цена на путъването.</string>
+    <string name="toll_tax">Такси като паркинг и подобни могат да бъдат включени в общата такса.</string>
+
+    <!-- User Profile -->
+    <string name="title_activity_user_profile">Активност на потр.</string>
+    <string name="user_profile">Профил</string>
+    <string name="name_profile">Име :</string>
+    <string name="user_name_profile">Потр. име :</string>
+    <string name="email_profile">Email :</string>
+    <string name="mobile_profile">Телефон :</string>
+    <string name="prf_date_of_birth">Дата на раждане :</string>
+    <string name="prf_gender">Пол :</string>
+
+    <string name="track_the_truck">Проследяване</string>
+
+    <string name="facebook_popup_string">Профилът ви още не е регистриран. Искате ли да се регистрирате сега?</string>
+    <string name="register">Регистрация</string>
+    <string name="cancel">Отказ</string>
+    <string name="ok">ОК</string>
+
+    <!--Popup String-->
+    <string name="special_locaion_pickup">Специално място на вземане може да има различна цена.</string>
+    <string name="select_date">Избери дата.</string>
+    <string name="select_time">Изберете време.</string>
+
+    <!--Validation string-->
+    <string name="please_enter_name">Моля, въведете име.</string>
+    <string name="please_min_name">Името трябва да бъде четири символа.</string>
+    <string name="please_min_isername">Потребителското име трябва да бъде четири символа.</string>
+    <string name="please_enter_username">Моля, въведете потребителско име.</string>
+    <string name="please_country_code">Моля, въведете код на държава.</string>
+    <string name="please_enter_mobile">Моля, посочете телефон.</string>
+    <string name="please_enter_password">Моля, напишете парола.</string>
+    <string name="please_enter_confirm_password">Моля, потвърдете паролата.</string>
+    <string name="password_length">Дължината на паролата трябва да е между 6-32 символа</string>
+    <string name="password_confirm">Паролите не съвпадат.</string>
+    <string name="please_enter_email">Моля, посочете Email.</string>
+    <string name="please_enter_valid_email">Моля, въведете валиден Email.</string>
+    <string name="location_long">Не можете да изберете град извън страната.</string>
+    <string name="location_short">Не можете да изберете къси разстояния.</string>
+    <string name="please_enter_date">Моля, посочете дата.</string>
+    <string name="please_enter_time">Моля, посочете време.</string>
+    <string name="please_enter_current_password">Моля, въведете текущата парола.</string>
+    <string name="please_current_password">Невалидна парола.</string>
+    <string name="please_enter_new_password">Моля, въведете нова парола.</string>
+    <string name="password_new_length">Дължината на паролата трябва да бъде между 6-32 символа.</string>
+    <string name="password_new_confirm">Новата парола и потвърдената парола не си съвпадат.</string>
+
+    <string name="please_enter_card_number">Моля, посочете номер на карта.</string>
+    <string name="please_enter_year">Моля, посочете година.</string>
+    <string name="please_enter_month">Моля, посочете месец.</string>
+    <string name="please_enter_cvc">Моля, въведете cvc.</string>
+
+    <string name="allow_minimum_four_characters">Минимум четири символа</string>
+    <string name="allow_minimum_ten_characters">Максимум десет символа</string>
+    <string name="emial_valid">Email allow abc@gmail.com</string>
+    <string name="password_valid">Моля, въведете букви и цифри</string>
+    <string name="one_time_pass_val">Моля, въведете еднократна парола.</string>
+
+    <string-array name="currency_array">
+        <item>Валута (незадължително)</item>
+        <item>Неуточнен</item>
+        <item>USD</item>
+    </string-array>
+
+    <string name="cardNumber">Номер на карта</string>
+    <string name="month">Месец</string>
+    <string name="year">Година</string>
+    <string name="save">Запази</string>
+    <string name="cvc">CVC</string>
+    <string name="stripe_form">Форма Stripe</string>
+
+    <string name="new_user_sign_up">НОВ ПОТРЕБИТЕЛ? РЕГИСТРИРАЙТЕ СЕ СЕГА!</string>
+    <string name="sign_in">ВХОД</string>
+    <string name="sign_in_logo">ВХОД</string>
+    <string name="sign_up_logo">РЕГИСТРАЦИЯ</string>
+    <string name="create_account">Създаване на профил</string>
+    <string name="sign_up">РЕГИСТРАЦИЯ</string>
+    <string name="show">Покажи</string>
+    <string name="hide">Скрий</string>
+    <string name="forgot_password_logo">ЗАБРАВЕНА ПАРОЛА</string>
+    <string name="retrive_password">ПОЛУЧИ СВОЯТА ПАРОЛА</string>
+    <string name="location_logo">ЛОКАЦИИ</string>
+    <string name="reservation">РЕЗЕРВАЦИЯ</string>
+    <string name="now">СЕГА</string>
+    <string name="far_breakup">ТАРИФИ</string>
+    <string name="book">РЕЗЕРВИРАЙ</string>
+    <string name="cancel_popup">ОТКАЗ</string>
+    <string name="to">ДО</string>
+    <string name="vehicle_detail">ДЕТАЙЛИ НА МПС</string>
+    <string name="payment_detail">ДЕТАЙЛИ НА ПЛАЩАНЕ</string>
+    <string name="confirm_request">ПОТВЪРДИ</string>
+    <string name="detail">ДЕТАЙЛИ</string>
+    <string name="location">ЛОКАЦИИ</string>
+    <string name="submit">Изпрати</string>
+
+    <string name="book_my_trip">Резервиране</string>
+    <string name="my_trip">Мойте пътувания</string>
+    <string name="sign_out">Изход</string>
+
+    <string name="pending_popup">Чакащи</string>
+    <string name="all">Всички</string>
+    <string name="completed_popup">Завършени</string>
+    <string name="driv_unavailable">Няма шофьори</string>
+    <string name="cnacel_booking">Отказани</string>
+    <string name="driver_accepted">Приети</string>
+    <string name="a">В</string>
+    <string name="p">Ч</string>
+    <string name="c">З</string>
+    <string name="d">П</string>
+    <string name="cancel_request">ОТКАЖИ ЗАЯВКАТА</string>
+
+    <string name="contact">Контакт</string>
+    <string name="arrival_point">Пристигане</string>
+    <string name="remaining">Остават</string>
+    <string name="coverd">Покрити</string>
+    <string name="total">Общо</string>
+
+    <string name="cancel_booking_pop">Отмяна на резервация?</string>
+    <string name="please_tell">Моля, кажете ни защо искате да отмените</string>
+    <string name="drv_late">Шофьорът е закъснял</string>
+    <string name="change_mind">Промених си мнението</string>
+    <string name="another_cab">Резервирах друго такси</string>
+    <string name="driver_denied">Шофьорът отказа</string>
+    <string name="dont_cancel">Не оменяй</string>
+    <string name="cancel_ride_pop">Откажи</string>
+    <string name="cancel_filter">ОТКАЗ</string>
+    <string name="apply">ПРИЛОЖИ</string>
+    <string name="first">Начално</string>
+    <string name="km">км</string>
+    <string name="after">След</string>
+    <string name="chnage_password">ПРОМЯНА НА ПАРОЛА</string>
+    <string name="cash">В БРОЙ</string>
+
+    <string name="enter_pickup">Моля, въведете място на тръгване.</string>
+    <string name="enter_drop">Моля, въвете място на пристигане.</string>
+    <string name="your_booking_cancel">Вашата резервация е отменена</string>
+    <string name="min">мин</string>
+    <string name="not_valid_total_price">Невалидна цена</string>
+    <string name="select_time_res">Изберете Време</string>
+    <string name="time_is_large">Избраната дата и час са невалидни.</string>
+    <string name="date_time_not_valid">Избраната дата и час са невалидни.</string>
+    <string name="change_password">СМЯНА НА ПАРОЛА</string>
+    <string name="profile_update_sucess">Вашите детайли от профила са били актуализирани успешно.</string>
+    <string name="mobile_update_sucess">Вашия телефон е актуализиран успешно.</string>
+
+    <string name="enter_correct_login_detail">Моля, въведете правилните данни за вход</string>
+    <string name="email_username_mobile_exit">Email, име и номер на мобилен телефон вече съществуват.</string>
+    <string name="email_username_exit">Email и потр. име вече съществуват.</string>
+    <string name="email_mobile_exit">Email и телефон вече съществуват.</string>
+    <string name="mobile_username_exit">Телефон и потр. име вече съществуват.</string>
+    <string name="email_exit">Email е зает.</string>
+    <string name="user_exit">Потребителското име е заето.</string>
+    <string name="mobile_exit">Телефонът вече е зает.</string>
+    <string name="somthing_worng">Нещо се обърка.</string>
+    <string name="data_not_found">Няма повече записи</string>
+    <string name="vehicle_numbet_exits">Номер на превозното средство вече е заето.</string>
+    <string name="license_numbet_exits">Лицензът вече е зает.</string>
+    <string name="dublicate_booking">Ние получихме Вашата резервация и е установено, че това може да е дубликат на предишната. Моля, опитайте отново.</string>
+    <string name="invalid_birth_date">Невалидна дата на раждане.</string>
+    <string name="inactive_user">Профилът ви е временно затворен. Моля, свържете се с администратор за повече детайли.</string>
+    <string name="correct_login_detail">Моля, въведете правилният  имейл / потребителско име и парола.</string>
+    <string name="recheck_your_login_detail">Моля, проверете отново данните си за вход и се опитайте отново. Нямате ли профил? Регистрирайте се сега.</string>
+    <string name="password_change_sucess">Парола е променена успешно.</string>
+    <string name="recheck_your_login_detail_title">Проверете данните за вход</string>
+    <string name="invalid_login">Невалиден Вход</string>
+
+    <string name="paypall">PayPal</string>
+    <string name="braintree">Плащане чрез кредитна карта / дебитна карта</string>
+    <string name="popup_cash">В Брой</string>
+    <string name="are_you_sure">Сигурни ли сте, че искате да излезете?</string>
+    <string name="really_exit">Изход?</string>
+    <string name="one_time_password">ЕДНОКРАТНА ПАРОЛА</string>
+
+    <!-- Change Mobile Number -->
+    <string name="Change_mobile_number">Промяна на телефон</string>
+    <string name="Change_mobile_number_str">ПРОМЯНА НА ТЕЛЕФОН</string>
+    <string name="Change_mobile_number_button">ПРОМЯНА НА ТЕЛЕФОН</string>
+    <string name="mobile_number">Телефон</string>
+    <string name="country">Държава</string>
+
+    <string name="choose_option">Изберете Опция</string>
+    <string name="open_camera">Камера</string>
+    <string name="gallery">Галерия</string>
+
+    <string name="facebook_share">Facebook</string>
+    <string name="twitter_share">Twitter</string>
+
+    <string name="male">Мъж</string>
+    <string name="female">Жена</string>
+    <string name="call">Обаждане</string>
+
+    <string name="are_you_sure_logout">Сигурни ли сте, че искате да излезете?</string>
+
+    <!--Api Key -->
+    <string name="facebook_app_id"></string>
+    <string name="google_maps_key">AIzaSyB8DiIqVyVoWzdDmNanh2b17s_y3LLKe68</string>
+    <string name="twilio_api_key">D8BqKPlepSn6gfmMgIx4JNqJmkjLlonb</string>
+    <string name="paypal_client_id"></string>
+
+    <string name="view_reviews">Преглед на отзивите</string>
+    <string name="my_reviews">Моите прегледи</string>
+    <string name="review">ПРЕГЛЕД</string>
+    <string name="dialog_review_title">Моля, помогнете ни да ви служи по-добре, като споделят опита си с нас.</string>
+    <string name="add_a_card">Добавяне на карта</string>
+    <string name="menu_cards">карти</string>
+
+    <string name="are_you_sure_want_to_delete">Сигурен ли си, че искаш да изтриеш?</string>
+    <string name="you_have_selected">Избрали сте краища на карти с </string>
+    <string name="as_your_default"> По подразбиране картата си. Резервация сума ще бъде приспадната от тази карта, когато вашето пътуване ще бъде завършен.</string>
+    <string name="booking_amount_of">, Резервация количество</string>
+    <string name="will_be_deducted">ще бъде приспадната от тази карта, когато вашето пътуване ще бъде завършен.</string>
+    <string name="are_you_sure_want_to_proceed">Наистина ли искате да продължите?</string>
+
+    <string name="yes">да</string>
+    <string name="no">Не</string>
+
+    <string name="otp_error">Ами сега! Открихме грешка проверка парола едно време. Моля, проверете дали сте въвели правилно OTP или нас за повече информация.</string>
+
+</resources>
