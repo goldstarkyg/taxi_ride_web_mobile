@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"taxibooking.search"},{"v":1,"key":{"loc":"2d"},"name":"loc_2d","ns":"taxibooking.search","background":true}]}

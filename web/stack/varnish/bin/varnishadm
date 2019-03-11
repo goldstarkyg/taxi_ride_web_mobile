@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/bitnami/scripts/setenv.sh
+
+exec /opt/bitnami/varnish/bin/.varnishadm.bin -n /opt/bitnami/varnish/var/varnish "$@"

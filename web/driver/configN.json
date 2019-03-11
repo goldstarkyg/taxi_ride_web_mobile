@@ -1,0 +1,16 @@
+{
+    "webPort": 8002,
+
+    "mongodbUrl": "mongodb://localhost/pushDriver",
+
+    "gcm": {
+        "apiKey": "AIzaSyBjIspaxmrdiX4bm_bITxK7MvV0xi9XHVc"
+    },
+    "apn": {
+        "connection": {
+            "gateway": "gateway.push.apple.com",
+            "cert": "DriverPushNew.pem",
+            "key" : "DriverPushNew.pem"
+        }
+    }
+}

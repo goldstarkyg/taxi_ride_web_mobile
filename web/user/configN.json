@@ -1,0 +1,24 @@
+{
+    "webPort": 8001,
+
+    "mongodbUrl": "mongodb://localhost/pushUser",
+
+    "gcm": {
+        "apiKey": "AIzaSyDEuTrlmf1QchWpgHadu59qvj7saxVq3wU"
+    },
+
+    "apn": {
+        "connection": {
+            "gateway": "gateway.push.apple.com",
+            "cert": "UserPush.pem",
+            "key": "UserPush.pem"
+        },
+        "feedback": {
+            "address": "feedback.sandbox.push.apple.com",
+            "cert": "UserPush.pem",
+            "key": "UserPush.pem",
+            "interval": 43200,
+            "batchFeedback": true
+        }
+    }
+}

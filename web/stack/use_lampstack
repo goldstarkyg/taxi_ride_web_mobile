@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+
+exec /bin/bash --rcfile "/opt/bitnami/.bashrc"

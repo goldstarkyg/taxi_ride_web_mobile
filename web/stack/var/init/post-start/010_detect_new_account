@@ -1,0 +1,67 @@
+#!/bin/sh
+#
+# Detect and configure the initial system account
+# Copyright 2017 Bitnami.com All Rights Reserved
+#
+
+. /opt/bitnami/scripts/init/functions
+
+detect_and_wait_for_new_account_name() {
+  for i in `seq 240` ; do
+    get_account_name_function=`get_current_cloud_name`_detect_new_account_name
+    new_user=`$get_account_name_function`
+    if [ $? = 0 -a "$new_user" != '' ] ; then break ; fi
+    sleep 15;
+  done
+  for i in `seq 240` ; do
+    egrep -qe "^${new_user}:" /etc/passwd
+    if [ $? = 0 ] ; then
+      echo $new_user
+      return 0
+    fi
+    sleep 15;
+  done
+  return 1
+}
+
+apply_bitnami_user_settings_if_needed() {
+  `get_current_cloud_name`_apply_bitnami_user_settings_if_needed
+}
+
+if ( run_once_check "detect_new_account" ); then
+  new_user=`detect_and_wait_for_new_account_name`
+  if [ $? != 0 -a "$new_user" = '' ] ; then
+    exit 1
+  fi
+
+  bitnami_uid=`egrep -e "^bitnami:" /etc/passwd | awk -F: '{print $3}'`
+  bitnami_gid=`egrep -e "^bitnami:" /etc/passwd | awk -F: '{print $4}'`
+
+  if [ "$new_user" = 'root' ] ; then
+    exit 0
+  elif [ "$new_user" = 'bitnami' ] ; then
+    apply_bitnami_user_settings_if_needed
+  else
+    # try up to 5 minutes to change uid and gid of the new user ; kill all child processes in the middle
+    for i in `seq 1 150` ; do
+      # kill all processes if this is the last atttempt ; pkill also kills ssh sessions
+      if [ "$i" = "150" ] ; then pkill -KILL -u $new_user ; fi
+
+      usermod -o -u $bitnami_uid -g $bitnami_gid -G bitnami-admins -a $new_user && break
+      echo "Unable to change UID and GID for $new_user ; waiting (attempt $i)"
+      sleep 2
+    done
+    sed -i -re "s/(^${new_user}\s|^bitnami\s|^ubuntu\s|^ec2\-user\s)/# \1/g" /etc/sudoers /etc/sudoers.d/*
+
+    ln -sf /opt/bitnami/apps /home/${new_user}/apps
+    ln -sf /opt/bitnami /home/${new_user}/stack
+
+    cp -f /home/bitnami/.bashrc /home/${new_user}/.bashrc
+    chown -R bitnami:bitnami /home/${new_user}
+    sed -i -e "s/BITNAMI_USER=\"bitnami\"/BITNAMI_USER=\"${new_user}\"/g" "/opt/bitnami/scripts/init/bitnami_agent"
+  fi
+
+  if [ "x$new_user" = "xbitnami-test" ] || [ "x$new_user" = "xbitnami_test" ] ; then
+    set_meta_data bitnami_testing_mode 1
+  fi
+fi

@@ -1,0 +1,62 @@
+var app = require('express')();
+var server = require('http').Server(app);
+server.listen(4045);
+var braintree = require("braintree");
+
+var gateway = braintree.connect({
+  environment: braintree.Environment.Sandbox,
+  merchantId: "6ss7m5dvvgqhsx29",
+  publicKey: "n4dxdfjm6z4ckvmj",
+  privateKey: "702a2d7bf7d77c33c6f78713c2ed6a03"
+});
+
+app.get("/client_token", function (req, res) {
+  gateway.clientToken.generate({}, function (err, response) {
+    res.send(response.clientToken);
+  });
+});
+
+app.post("/checkout", function (req, res) {
+  var nonceFromTheClient = req.body.payment_method_nonce;
+  gateway.transaction.sale({
+  amount: req.body.amount,
+  paymentMethodNonce: nonceFromTheClient,
+  options: {
+    submitForSettlement: true
+  }
+}, function (err, result) {
+
+if ( err) 
+{
+return res.json({
+                                            errDetails: err,
+                                            success: false
+                                        }); 
+                                        
+                                        }
+                                        else
+                                        {
+                                            return res.json({
+                                            data: result,
+                                            success: true
+                                        }); 
+                                        }
+
+}
+
+);
+
+  // Use payment method nonce here
+});
+
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', "http://"+req.headers.host+':4045');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+  next();
+  }
+);
+
+app.get('/', function(req, res){
+	res.sendFile(__dirname + '/index.html');
+});

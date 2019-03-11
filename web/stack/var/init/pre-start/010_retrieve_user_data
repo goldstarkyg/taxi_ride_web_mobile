@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# Copy user data from cloud init and store it
+# Copyright 2017 Bitnami.com All Rights Reserved
+#
+
+. /opt/bitnami/scripts/init/functions
+
+echo "Waiting for cloud-init instance data to be present"
+for i in `seq 0 60` ; do test -e $GODADDY_INSTANCE_DIRECTORY && break ; sleep 5 ; done 
+
+# when run with --force option, copy user data file regardless of flag
+if [ "x$1" != "x--force" ] ; then
+  run_once_check "retrieve_user_data"
+  if [ $? -ne 0 ]; then
+    exit 0
+  fi
+fi
+
+cp $GODADDY_FIRSTBOOT_FILE $USER_DATA

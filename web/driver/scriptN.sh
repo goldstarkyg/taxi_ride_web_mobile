@@ -1,0 +1,1 @@
+pushserver -c configN.json 

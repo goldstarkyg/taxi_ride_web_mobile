@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /vatsal/okayswiss/cms
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /vatsal/okayswiss/cms/index.php/$1 [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+  # If we don't have mod_rewrite installed, all 404's
+  # can be sent to index.php, and everything works as normal.
+  # Submitted by: ElliotHaughin
+
+  ErrorDocument 404 /index.php
+</IfModule>
+
+# RewriteEngine on 
+# RewriteBase /
+# RewriteRule ^$ http://okayswiss.ch/index.php [R=301,L]
+
+# RewriteEngine on 
+# RewriteBase /cms
+# RewriteRule ^$ http://okayswiss.ch/admin/index.php [R=301,L]

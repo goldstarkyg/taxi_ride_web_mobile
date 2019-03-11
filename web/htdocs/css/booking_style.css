@@ -1,0 +1,301 @@
+*
+{
+	margine:0 auto;
+	padding:0;
+}
+
+.booking_display_pessengere,.booking_display_cartype
+{
+	display:none;
+	border:black solid 1px;
+	width:200px;
+	height:auto;
+	max-height: 300px;
+	background-color: white;
+	position:absolute;
+	left:0px;
+	top:76px;
+}
+
+.booking_display_pessengere
+{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 3px;
+	height: auto;
+}
+
+.booking_display_pessengere table
+{
+	margin:0 auto;
+}
+
+.booking_display_pessengere table tr td
+{
+	margin:0 auto;
+	height:20px;
+	line-height: 20px;
+	padding:2px;
+	background-color: rgba(207, 199, 199, 0.15);
+	border:lightgray solid 1px;
+}
+
+#booking_pessenger_div
+{
+	height:40px;
+}
+#booking_pessenger_div:hover .booking_display_pessengere
+{
+	display:block;
+	z-index:2;
+}
+.booking_display_pessengere:hover
+{
+	display:block;
+	z-index:2;
+}
+
+.booking_display_cartype
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 3px;
+	height: auto;
+}
+
+.booking_display_cartype table
+{
+	margin: 0 auto;
+	padding:6px;
+	width:auto;
+	margin: 5px;
+	border:black solid 1px;
+}	
+
+.booking_display_cartype table tr td
+{
+	margin:0 auto;
+	height:20px;
+	line-height: 20px;
+	padding:2px;
+	background-color: rgba(207, 199, 199, 0.15);
+	border:lightgray solid 1px;
+}	
+
+#booking_cartype_div
+{
+	height:40px;
+}
+
+#booking_cartype_div:hover  .booking_display_cartype
+{
+	display:block;
+	z-index:2;
+}
+.booking_display_cartype:hover
+{
+	display:block;
+	z-index:2;
+}
+
+.booking_contain
+{
+	position: absolute;
+	border:none;
+	width:auto;height:auto;
+	background-color: transparent;
+	z-index: 1;
+	top:100px;
+	right: 0px;
+}
+
+.div_col1,.div_col2,.div_col3,.div_col4,.div_col5,.div_col6
+{
+	margin:2px;padding:1px;
+	border:#FFF solid 1px;
+	height:40px;width:180px;
+	background-color: rgba(255,255,255,0.10);
+	float:left;
+	background-color: rgba(246, 246, 246, 0.08);
+	border-radius: 4px;
+	box-shadow:inset rgba(211, 211, 211, 0.48) 1px 14px 24px 3px, inset rgba(211, 211, 211, 0.14) 1px -14px 24px 3px;
+}
+
+.div_col6
+{
+	width:100px;
+}
+
+.booking_first_img
+{
+	border:none;
+	width:29px;
+	height:30px;
+	display: inline-block;
+}
+
+.booking_textbox
+{
+	border:none;
+	width:120px;
+	height:30px;
+	background-color: transparent;
+	font-size:14px;
+	color:white;
+	box-shadow:none;
+}
+
+.booking_last_img
+{
+	border:none;
+	width:29px;
+	height:30px;
+	display: inline-block;
+}
+
+.booking_submit_
+{
+	width:100px;height:40px;
+	background-color: rgb(255, 189, 74);
+	margin-top: -2px;margin-left: -1px;
+	border:none;
+	border-radius: 3px;
+	color: white;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    box-shadow: rgb(255, 189, 74) 1px 1px 1px 2px;
+}
+
+.passenger_no
+{
+	width:40px;
+	height:20px;
+	border:none;
+}
+
+.list_div
+{
+	width:94px;
+	height:30px;
+	border:none;
+	display: inline-block;
+	line-height: 27px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.list_img_
+{
+	float:right;
+	border: none;
+	background:url("../images/quationmark.png") 30px/30px;
+	background-position: 30px 30px;
+}
+
+.cartype_detail_main,.phoneotp_detail_mian
+{
+	display:none;
+	position:fixed; 
+	top:0px;bottom: 0px;
+	left:0px;right:0px;  
+	border:white solid 1px;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.cartype_detail,.phoneotp_detail
+{
+	position: absolute;
+	top:200px;
+	left: 500px;
+	width: 360px;
+	height: 200px;
+	padding:10px;
+	border: white solid 1px;
+	background-color:rgba(255,255,255,0.8);  
+}
+
+.phoneotp_detail
+{
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.detail_close,.phoneotp_close
+{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width:21px;
+	height:21px;
+	border: green solid 1px; 
+	background-color: white;
+	background-image: url("../images/close-icon.png");
+	background-size: 20px 20px;
+}
+
+.phoneotp_detail table
+{
+	margin:0 auto;
+	margin-top: 25px;
+	border:none;
+}
+
+.phoneotp_detail table tr
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.phoneotp_detail table tr td
+{
+	margin:0 auto;
+	margin-top: 25px;
+	border:lightgray solid 1px;
+	height: 40px;
+	line-height: 40px;
+	background-color:rgba(0, 0, 0, 0.3);
+	color:white;
+	font-weight: bold;
+}
+.phoneotp_detail table tr td input[type="text"]
+{
+	color:black;
+	width:100%;
+}
+
+.img_search
+{
+
+	background: url("../images/main_spritex2_v4.png") 400px/400px;
+	background-position: -35px -84px;
+}
+
+.datetime_img
+{
+	background: url("../images/main_spritex2_v4.png") 400px/400px;
+	background-position: -38px -115px;
+}
+
+.sheet_img
+{
+	background: url("../images/main_spritex2_v4.png") 400px/400px;
+	background-position: -36px -55px;
+}
+
+.cartype_img
+{
+	background:url("../images/cartype.png") 30px/30px;
+	background-position: 30px 33px;
+	background-size: 30px 30px
+}
+
+.sendotp
+{
+	display: block;
+}
+.verification
+{
+	display: none;	
+}

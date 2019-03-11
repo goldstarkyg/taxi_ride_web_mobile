@@ -1,0 +1,605 @@
+{
+	"sportsPlistModificationCheckInterval": "1",
+	"loadingoptions": {
+		"showSportsSelector": "true",
+		"images": [],
+		"sports": [{
+			"url": "http:\/\/gameday-data.com\/BNP\/plist\/testing\/new_style\/bnp_config-nesting.plist",
+			"name": "Bnp",
+			"key": "bnp"
+		}]
+	},
+	"colors": {
+		"main": "255,255,255",
+		"detail": "255,255,255",
+		"title": "255,255,255",
+		"thumb_border": "109,132,119",
+		"subtitle_bg": "109,132,119",
+		"form_bg": "190,190,190",
+		"form_font": "163,163,168"
+	},
+	"version": {
+		"android": "2.0",
+		"iphone": "1.3",
+		"ipad": "1.01"
+	},
+	"gimbalOptions": {
+		"keys": {
+			"android": "8e787df8-8702-4bce-9e52-ecca7a03106a",
+			"iphone": "be1c4d43-c7c6-4403-b914-fc15d250ae4f",
+			"ipad": "65a50046-e04d-4a0b-a6e1-7942fd899283"
+		},
+		"urlScheme": "bnp|"
+	},
+	"appurl": {
+		"android": "http:\/\/bit.ly\/1A1syLb",
+		"iphone": "http:\/\/bit.ly\/TKLrBJ",
+		"ipad": "http:\/\/apple.co\/1AONd5G"
+	},
+	"urlforimages": "http:\/\/bnpopenapp.com\/images",
+	"profanityfilter": "http:\/\/bnpopenapp.com\/filter\/profanity-filter.txt",
+	"timezone": "PST",
+	"rosterOptions": {
+		"listOptions": {
+			"title_colors": "255,255,255",
+			"score_colors": "255,255,255"
+		},
+		"detailsOptions": {
+			"bio_info_colors": "255,255,255",
+			"synopsis_color": "255,255,255"
+		}
+	},
+	"scheduleOptions": {
+		"teamName": "",
+		"imageSize": "",
+		"headerHeight": "",
+		"match_duration": "",
+		"schedule_default_time": "",
+		"cellHeadingColor": "255,255,255",
+		"headerColor": "255,255,255",
+		"headerTextColor": "255,255,255"
+	},
+	"tableconfig": {
+		"singlemenu": {
+			"height": "90"
+		},
+		"descriptionmenu": {
+			"height": "90"
+		},
+		"thumbnailmenu": {
+			"height": "90"
+		}
+	},
+	"cssGroup": ["Defaults", "Default Table", "Side Slider Menu", "Coliseum", "Notifications", "Playlist"],
+	"css": {
+		"SearchBar": {
+			"backgroundColor": "0,82,46",
+			"comment": "This is the view controller inherited by all of the view controllers in app code. The backgroundColor is used for status bar.",
+			"group": "Search Bar",
+			"order": "1"
+		},
+		"SearchBarTextField": {
+			"backgroundColor": "236,236,236",
+			"comment": "this is the default style class.   If no class is set, or if certain attributes are left out, these options will be used.",
+			"fontColor": "72,72,72",
+			"fontFamily": "Lato-Regular",
+			"fontSize": "14",
+			"group": "Search Bar",
+			"order": "0"
+		},
+		"BaseViewController": {
+			"backgroundColor": "255,255,255",
+			"comment": "This is the view controller inherited by all of the view controllers in app code. The backgroundColor is used for status bar.",
+			"group": "Defaults",
+			"order": "0"
+		},
+		"HomeButton": {
+			"backgroundColor": "clear",
+			"color": "255,255,255",
+			"selectedColor": "255,255,255",
+			"comment": "This is used to control home button and back button tint color",
+			"group": "Defaults",
+			"order": "0"
+		},
+		"DefaultBoldLabel": {
+			"comment": "this is the default style class.   If no class is set, or if certain attributes are left out, these options will be used.",
+			"fontFamily": "Lato-Bold",
+			"group": "Defaults",
+			"order": "1",
+			"parent": "DefaultLabel"
+		},
+		"OOPDateSelectorDateLabel": {
+			"comment": "This label holds the date in top date selection scroller.   If no class is set, or if certain attributes are left out, these options will be used.",
+			"fontFamily": "Lato-Bold",
+			"group": "Defaults",
+			"order": "2",
+			"fontColor": "255,255,255",
+			"parent": "DefaultBoldLabel"
+		},
+		"DefaultHeader": {
+			"backgroundColor": "clear",
+			"comment": "this is the default calss for headers.   Notice that we have not changed the fontFamily, so we will use the font family front 'default' class.",
+			"fontSize": "16",
+			"group": "Defaults",
+			"margins": "10 10 10 10",
+			"order": "3",
+			"padding": "0 0 0 0",
+			"parent": "DefaultLabel"
+		},
+		"DefaultLabel": {
+			"backgroundColor": "clear",
+			"comment": "this is the default style class.   If no class is set, or if certain attributes are left out, these options will be used.",
+			"fontColor": "0,0,0",
+			"fontFamily": "Lato-Regular",
+			"fontSelectedColor": "255,255,255",
+			"fontSize": "14",
+			"group": "Default Table",
+			"margins": "20 20 20 20",
+			"order": "0",
+			"padding": "10 10 10 10"
+		},
+		"DefaultTableViewCell": {
+			"backgroundColor": "clear",
+			"backgroundSelectedColor": "clear",
+			"comment": "This is a parent class for all the tableview cells. The backgroundColor and backgroundSelectedColor work when we select a tableRow",
+			"group": "Default Table",
+			"height": "50",
+			"order": "1"
+		},
+		"DefaultCellSeperatorLabel": {
+			"backgroundColor": "0,124,72",
+			"backgroundSelectedColor": "clear",
+			"comment": "This is the default seperator label in all table rows. If the height is set to 0 the seperator will not be shown.",
+			"group": "Default Table",
+			"height": "1",
+			"order": "2"
+		},
+		"DefaultTableViewSection": {
+			"backgroundColor": "clear",
+			"backgroundSelectedColor": "clear",
+			"comment": "This is a parent class for all the tableview section. The backgroundColor and backgroundSelectedColor will work when we use sections as tableview rows",
+			"group": "Default Table",
+			"height": "30",
+			"order": "3"
+		},
+		"CellMenuLabel": {
+			"comment": "Used in standard menu tables",
+			"fontSize": "17",
+			"group": "Default Table",
+			"order": "4",
+			"parent": "DefaultLabel"
+		},
+		"DefaultTableRevealArrow": {
+			"color": "255,255,255",
+			"comment": "The class to control tint of default table view reveal arrow.",
+			"group": "Default Table",
+			"height": "15",
+			"order": "5",
+			"selectedColor": "255,255,255",
+			"width": "15"
+		},
+		"CellTextLabel": {
+			"fontSize": "14",
+			"group": "Default Table",
+			"order": "6",
+			"parent": "DefaultBoldLabel"
+		},
+		"CellDetailLabel": {
+			"fontSize": "12",
+			"group": "Default Table",
+			"order": "7",
+			"parent": "DefaultLabel"
+		},
+		"BaseTableRowThumb": {
+			"backgroundColor": "clear",
+			"backgroundSelectedColor": "clear",
+			"color": "clear",
+			"comment": "This is parent class for all thumb icons shown in table views. backgroundColor and backgroundSelectedColor work for border. and color and selctedColor work for icon tint like in sideslider menu",
+			"group": "Default Table",
+			"height": "200",
+			"order": "8",
+			"selectedColor": "clear",
+			"width": "200"
+		},
+		"SideSliderHeaderAdView": {
+			"backgroundColor": "255,255,255",
+			"comment": "This is for Side Slider Menu on top where it shows Ads",
+			"group": "Side Slider Menu",
+			"height": "105",
+			"order": "0",
+			"parent": "DefaultHeader"
+		},
+		"SideSliderHeaderLogoView": {
+			"backgroundColor": "0,82,46",
+			"comment": "This is for Side Slider Menu on top where it shows Logo",
+			"group": "Side Slider Menu",
+			"height": "75",
+			"order": "1",
+			"parent": "DefaultHeader"
+		},
+		"SideSliderHeaderView": {
+			"backgroundColor": "0,82,46",
+			"comment": "This is the header which contains the logo and the ad.",
+			"group": "Side Slider Menu",
+			"order": "2"
+		},
+		"SideSliderHeaderSeparatorLine": {
+			"comment": "Line below the logo and ad in side slider top header",
+			"backgroundColor": "0,124,72",
+			"parent": "DefaultCellSeperatorLabel",
+			"order": "3",
+			"group": "Side Slider Menu"
+		},
+		"SideSliderHeaderSeperatorLabel": {
+			"backgroundColor": "0,124,72",
+			"backgroundSelectedColor": "clear",
+			"comment": "This is seperator label in header rows for collapsable menu. If the height is set to 0 the seperator will not be shown.",
+			"group": "Side Slider Menu",
+			"height": "1",
+			"order": "4",
+			"parent": "DefaultCellSeperatorLabel"
+		},
+		"SideSliderRowThumb": {
+			"color": "255,255,255",
+			"comment": "color and selected color decide the color of the icon when in selected mode or non selected mode",
+			"group": "Side Slider Menu",
+			"height": "20",
+			"order": "5",
+			"parent": "BaseTableRowThumb",
+			"selectedColor": "255,2555,255",
+			"width": "20"
+		},
+		"SideSliderMenuTableViewCell": {
+			"backgroundColor": "255,255,255",
+			"backgroundSelectedColor": "255,178,0",
+			"comment": "The menu rows in side slider menu. The backgroundColor and backgroundSelectedColor will work when we select a tableRow but only if the menu is non-collapsable",
+			"group": "Side Slider Menu",
+			"height": "40",
+			"order": "6",
+			"parent": "DefaultTableViewCell"
+		},
+		"SideSliderMenuLabel": {
+			"backgroundColor": "clear",
+			"comment": "xx",
+			"fontColor": "0,82,46",
+			"fontSize": "16",
+			"group": "Side Slider Menu",
+			"order": "7",
+			"parent": "DefaultLabel"
+		},
+		"SideSliderTableRevealArrow": {
+			"color": "255,255,255",
+			"comment": "The class to control tint of side slider reveal arrow.",
+			"group": "Side Slider Menu",
+			"order": "8",
+			"parent": "DefaultTableRevealArrow",
+			"selectedColor": "255,255,255"
+		},
+		"SideSliderSectionHeaderLabel": {
+			"comment": "in this class we are loading first the values from the defaultHeader class and then over-riding some of the items in this class.  In this case, we are just overriding fontColor",
+			"fontColor": "255,255,255",
+			"group": "Side Slider Menu",
+			"order": "9",
+			"parent": "DefaultHeader"
+		},
+		"SideSliderMenuTableViewSection": {
+			"backgroundColor": "0,82,46",
+			"backgroundSelectedColor": "255,178,0",
+			"comment": "The menu sections in side slider menu. The backgroundColor and backgroundSelectedColor will work when we use sections as tableview rows",
+			"group": "Side Slider Menu",
+			"height": "40",
+			"order": "10",
+			"parent": "DefaultTable"
+		},
+		"ColiseumPOILinkWebLabel": {
+			"parent": "DefaultLabel",
+			"comment": "Link and website color for POI Detail",
+			"fontColor": "255,255,255",
+			"group": "Coliseum",
+			"order": "0"
+		},
+		"ColiseumPOITitleLabel": {
+			"parent": "DefaultBoldLabel",
+			"group": "Coliseum",
+			"fontSize": "15",
+			"fontColor": "58,58,58",
+			"comment": "The title Label for Coliseum POI.",
+			"order": "1"
+		},
+		"ColiseumPOIDescriptionLabel": {
+			"parent": "DefaultBoldLabel",
+			"fontSize": "13",
+			"group": "Coliseum",
+			"fontColor": "58,58,58",
+			"comment": "All other labels in Coliseum POI.",
+			"order": "2"
+		},
+		"ColiseumPOISeparatorLabel": {
+			"parent": "DefaultCellSeperatorLabel",
+			"fontSize": "13",
+			"group": "Coliseum",
+			"height": "7",
+			"fontColor": "58,58,58",
+			"comment": "The line under Coliseum POI title.",
+			"order": "3"
+		},
+		"NotificationsTableViewSection": {
+			"order": "0",
+			"parent": "BaseViewController",
+			"group": "Notifications",
+			"backgroundColor": "0,84,30",
+			"comment": "This is the table section header for notifications"
+		},
+		"NotificationsSectionHeaderLabel": {
+			"order": "1",
+			"parent": "DefaultBoldLabel",
+			"group": "Notifications",
+			"fontColor": "255,255,255",
+			"comment": "Label for Table Section in Notifications"
+		},
+		"NotificationsBannerTitleLabel": {
+			"order": "2",
+			"parent": "DefaultBoldLabel",
+			"group": "Notifications",
+			"fontColor": "255,255,255",
+			"fontSize": "13",
+			"comment": "Title for notification banner"
+		},
+		"NotificationsCellTextLabel": {
+			"order": "3",
+			"parent": "CellTextLabel",
+			"group": "Notifications",
+			"fontColor": "0,0,0",
+			"comment": "Channel Name Label for Notifications"
+		},
+		"NotificationsBannerMessageLabel": {
+			"order": "4",
+			"parent": "DefaultLabel",
+			"group": "Notifications",
+			"fontColor": "255,255,255",
+			"fontSize": "11",
+			"comment": "Description for notification banner"
+		},
+		"NotificationsBannerView": {
+			"order": "5",
+			"parent": "DefaultLabel",
+			"group": "Notifications",
+			"backgroundColor": "10,10,10",
+			"comment": "Background for notification banner"
+		},
+		"NotificationsCellOptionalMessageTextLabel": {
+			"order": "6",
+			"parent": "CellDetailLabel",
+			"group": "Notifications",
+			"fontColor": "100,100,100",
+			"comment": "Optional Message for any channel in Notifications"
+		},
+		"OrderOfPlayBackgroundImageView": {
+			"backgroundColor": "255,255,255",
+			"comment": "The background color for table in OOP.",
+			"group": "",
+			"order": "6"
+		},
+		"OOPMatchTextLabel": {
+			"fontColor": "74,74,74",
+			"fontFamily": "Lato-Bold",
+			"group": "",
+			"order": "7",
+			"comment": "Match Text\/Title Name In Order Of play",
+			"parent": "CellTextLabel"
+		},
+		"OOPMatchDetailLabel": {
+			"fontColor": "74,74,74",
+			"group": "",
+			"order": "8",
+			"comment": "Match Details\/Player Details In Order Of play",
+			"parent": "CellDetailLabel"
+		},
+		"PlaylistHeaderTextLabel": {
+			"parent": "DefaultBoldLabel",
+			"fontSize": "13",
+			"fontColor": "255,255,255",
+			"backgroundColor": "0,82,46",
+			"comment": "The play list name holder label in the top header view. To hide this header completely please set 'showSubtitleHeader' to NO in playlistOptions",
+			"order": "9",
+			"group": ""
+		},
+		"NavigationBarTitle": {
+			"backgroundColor": "0,82,46",
+			"comment": "this is the default calss for headers.   Notice that we have not changed the fontFamily, so we will use the font family front 'default' class.",
+			"fontSize": "24",
+			"fontColor": "248,184,68",
+			"group": "Defaults",
+			"margins": "10 10 10 10",
+			"order": "3",
+			"padding": "0 0 0 0",
+			"parent": "DefaultBoldLabel"
+		}
+	},
+	"statOptions": {
+		"subtitle_color": "",
+		"scores": {
+			"team_header_text_color": "255,255,255",
+			"team_row_text_color": "255,255,255",
+			"final_score_text_color": "255,255,255",
+			"quarter_score_text_colors": "255,255,255",
+			"other_text_color": "255,255,255",
+			"subtitle_text": ""
+		},
+		"plays": {
+			"subtitle_text": "",
+			"subtitle_text_color": "255,255,255",
+			"drive_text_color": "255,255,255",
+			"panel_background_color": "255,255,255",
+			"score_text_color": "255,255,255",
+			"team_name_text_color": "255,255,255",
+			"team_score_text_color": "255,255,255",
+			"description_text_color": "255,255,255"
+		},
+		"stats": {
+			"subtitle_text": "",
+			"panel_background_color": "255,255,255",
+			"team_name_text_color": "255,255,255",
+			"header_text_color": "255,255,255",
+			"player_name_text_color": "255,255,255",
+			"player_stats_text_color": "255,255,255",
+			"total_text_color": "255,255,255"
+		},
+		"snapshot": {
+			"subtitle_text": "",
+			"team_row_score_text_color": "255,255,255",
+			"row_title_text_color": "255,255,255",
+			"subtitle_text_color": "255,255,255"
+		}
+	},
+	"notifications": {
+		"message": "You have been subscribed to receive notifications from the tournament",
+		"showAllSports": "YES",
+		"showTableSectionHeaders": "NO",
+		"options": {
+			"players": {
+				"displayName": "Manage Notifications",
+				"order": "0",
+				"message": "",
+				"channels": [{
+					"name": "General Notifications",
+					"key": "generalnotifications",
+					"autosubscribe": "YES",
+					"optional_message": "",
+					"type": "parse"
+				}, {
+					"name": "Location-Based Notifications",
+					"key": "location-basednotifications",
+					"autosubscribe": "YES",
+					"optional_message": "",
+					"type": "gimbal"
+				}, {
+					"name": "Promotional Notifications",
+					"key": "promotionalnotifications",
+					"autosubscribe": "YES",
+					"optional_message": "",
+					"type": "parse"
+				}, {
+					"name": "Staging Channel",
+					"key": "stagingchannel",
+					"autosubscribe": "YES",
+					"optional_message": "",
+					"type": "parse"
+				}]
+			}
+		}
+	},
+	"fonts": {
+		"titlebar": {
+			"font-regular": "Lato-Regular",
+			"font-bold": "Lato-Bold",
+			"size1": "18",
+			"size2": "12",
+			"size3": "14",
+			"size4": "20",
+			"size5": "22",
+			"size6": "15"
+		},
+		"title": {
+			"font-regular": "Lato-Regular",
+			"font-bold": "Lato-Bold",
+			"size1": "18",
+			"size2": "12",
+			"size3": "14",
+			"size4": "20",
+			"size5": "22",
+			"size6": "15"
+		},
+		"menu": {
+			"font-regular": "Lato-Regular",
+			"font-bold": "Lato-Bold",
+			"size1": "17",
+			"size2": "27",
+			"size3": "16"
+		},
+		"main": {
+			"font-regular": "Lato-Regular",
+			"font-bold": "Lato-Bold",
+			"size1": "13",
+			"size2": "17",
+			"size3": "48",
+			"size4": "10",
+			"size5": "13.5",
+			"size6": "15",
+			"size7": "12",
+			"size8": "25",
+			"size9": "16",
+			"size10": "20",
+			"size11": "18",
+			"size12": "38"
+		},
+		"form": {
+			"font-regular": "Lato-Regular",
+			"font-bold": "Lato-Bold",
+			"size1": "17",
+			"size2": "17",
+			"size3": "17"
+		}
+	},
+	"mapOptions": {
+		"areaMap": {
+			"locationDetails": {
+				"textColor": "255,255,255"
+			}
+		}
+	},
+	"menuType": "sideSlider",
+	"photoboothOptions": {
+		"share": {
+			"emailBody": "Check out what I created using the Official BNP Paribas presented by TAC app! #BNPParibasOpen2016.",
+			"emailSubject": "Photobooth Photo from BNP Paribas Open presented by TAC App",
+			"twitterText": "Check out what I created using the Official BNP Paribas presented by TAC app! #BNPParibasOpen2016."
+		}
+	},
+	"sideSliderOptions": {
+		"adcode": "<embed width=\"300\" height=\"120\" src=\"http:\/\/static.rolex.com\/clocks\/2014\/html\/indian_wells_HTML_300x90\/rolex.html\">",
+		"collapsable": "YES",
+		"displayad": "NO",
+		"logoImage": "menu_logo",
+		"menuWidth": "285",
+		"showLogo": "YES",
+		"showMenuIcons": "YES"
+	},
+	"playlistOptions": {
+		"showSubtitleHeader": "false",
+		"roundedThumb": "false"
+	},
+	"oopOptions": {
+		"eventName": "BNP Paribas Open",
+		"eventUrl": "http:\/\/www.bnpparibasopen.com\/en\/event-info\/match-schedule"
+	},
+	"schedules": {
+		"all": "There are no matches scheduled.   Please check back later.",
+		"today": "There are no matches scheduled for today.   Please check back later.",
+		"tomorrow": "There are no matches scheduled for tomorrow.   Please check back tonight.",
+		"practice": "The practice matches are not yet scheduled.   Please check back later."
+	},
+	"videostream": {
+		"iphone": "http:\/\/162.242.140.232\/scoring\/GetVideoFeed.php?stripName=1",
+		"ipad": "http:\/\/162.242.140.232\/scoring\/GetVideoFeed.php?stripName=1",
+		"android": "http:\/\/www.tennistviphone.performgroup.com\/streaming\/eventList\/?days=1&version=2",
+		"sort": "asc",
+		"no-matches": "There are currently no live matches being broadcast.   Please check back later.",
+		"replace": {
+			"old": "Indian Wells ",
+			"new": ""
+		}
+	},
+	"a::bnp": "http:\/\/gameday-data.com\/BNP\/plist\/testing\/new_style\/bnp_config-nesting.plist",
+	"gantid": "UA-46316326-6",
+	"radiokitkeys": "0x3c9467c7,0xa8535027",
+	"statusbarcolor": "light",
+	"radiokit-keys": {
+		"iphone": "0x3c9467c7,0xa8535027",
+		"ipad": "0xaf9202de,0x1d592ebb"
+	},
+	"bnp-wifi": {
+		"url": "https:\/\/rxg.haleonwheels.net\/admin\/scaffolds\/accounts\/create.xml?api_key=dcD5QEOHECsNI5mcKsvXs-vGAAcjzcpA6qzyAcX39J_CtLbjv0xysU9237yfZASAHi8F0acNuI6HCRWNgpGb_Q",
+		"usage-plan": "3"
+	}
+}
